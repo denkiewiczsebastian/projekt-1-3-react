@@ -1,0 +1,19 @@
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4e4e4e;
+  color: #ffffff;
+  width: 100%;
+  height: 71px;
+}
+
+footer .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4e4e4e;
+}
+.fa-brands {
+  margin-right: 15px;
+}

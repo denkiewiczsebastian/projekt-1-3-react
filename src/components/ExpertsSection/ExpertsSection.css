@@ -1,0 +1,53 @@
+.expert {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.experts-header {
+  font-size: 36px;
+  font-weight: 700;
+  color: #152d41;
+  margin-bottom: 40px;
+}
+
+.expert:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.expert img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.expert-info {
+  margin: 0 30px;
+}
+
+.expert-info h3 {
+  font-weight: 800;
+  padding-bottom: 30px;
+}
+
+.expert-info p {
+  font-size: 18px;
+  color: #4e4e4e;
+}
+.employee-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: -5px 14px 31px -5px rgba(66, 68, 90, 1);
+}
+.expert-info-right {
+  margin: 60px;
+  text-align: right;
+}
+
+.expert-section h2 {
+  color: #152d41;
+  padding-bottom: 51px;
+}
