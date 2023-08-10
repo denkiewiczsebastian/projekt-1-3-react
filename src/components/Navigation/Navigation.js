@@ -19,7 +19,7 @@ const Navigation = () => {
             </a>
           </li>
           <li>
-            <a href="" className="links disabled-button">
+            <a href="#" className="links disabled-button">
               Kontakt
             </a>
           </li>
