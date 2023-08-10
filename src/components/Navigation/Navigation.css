@@ -21,6 +21,13 @@
 
 .disabled-button {
   cursor: not-allowed;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 18px;
 }
 
 .links {
