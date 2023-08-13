@@ -1,4 +1,3 @@
-import React from "react";
 import "./ExpertsSection.css";
 import EmployeeRow from "./EmployeeRow";
 import employees from "../../data/employees";
@@ -17,6 +16,7 @@ const ExpertsSection = () => {
               position={employee.position}
               description={employee.description}
               imageSrc={employee.imageSrc}
+              index={employee.index}
             />
           ))}
         </ul>

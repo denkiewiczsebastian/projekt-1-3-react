@@ -22,6 +22,7 @@ const employees = [
       "perspicia tis ut dolorem et deserunt fugit laboriosam nemo? " +
       "Duis efficitur lacinia enim, non tincidunt libero.",
     imageSrc: "images/kobieta.jpg",
+    index: 1,
   },
 ];
 

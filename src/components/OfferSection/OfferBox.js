@@ -1,4 +1,4 @@
-import React from "react";
+import "./OfferBox.css";
 
 const OfferBox = ({ title, isNew }) => {
   return (

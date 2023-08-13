@@ -1,4 +1,3 @@
-import React from "react";
 import "./OfferSection.css";
 import OfferBox from "./OfferBox";
 import offers from "../../data/offers";

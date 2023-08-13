@@ -1,7 +1,7 @@
 .expert {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .experts-header {
@@ -13,17 +13,6 @@
 
 .expert:nth-of-type(even) {
   flex-direction: row-reverse;
-}
-
-.expert img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.expert-info {
-  margin: 0 30px;
 }
 
 .expert-info h3 {
@@ -41,10 +30,6 @@
   object-fit: cover;
   border-radius: 50%;
   box-shadow: -5px 14px 31px -5px rgba(66, 68, 90, 1);
-}
-.expert-info-right {
-  margin: 60px;
-  text-align: right;
 }
 
 .expert-section h2 {
